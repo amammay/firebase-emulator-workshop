@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@nebular/theme/styles/prebuilt/cosmic.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -121,8 +122,16 @@
               "devServerTarget": "firebase-emulator-workshop:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "firebase-emulator-workshop"
+    }
+  },
+  "defaultProject": "firebase-emulator-workshop",
+  "cli": {
+    "analytics": "356c7d84-89bc-46ab-a050-3b88674a8588"
+  }
 }

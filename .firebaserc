@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mammay-play-test": {
+      "hosting": {
+        "firebase-emulator-workshop": [
+          "mammay-play-test"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mammay-play-test"
+  }
+}
